@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		651CFB68259BE63C00C95796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651CFB67259BE63C00C95796 /* AppDelegate.swift */; };
+		651CFB6A259BE63C00C95796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651CFB69259BE63C00C95796 /* ViewController.swift */; };
+		651CFB6C259BE63F00C95796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651CFB6B259BE63F00C95796 /* Assets.xcassets */; };
+		651CFB6F259BE63F00C95796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651CFB6D259BE63F00C95796 /* Main.storyboard */; };
+		651CFB7B259BE63F00C95796 /* RagaBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651CFB7A259BE63F00C95796 /* RagaBoxTests.swift */; };
+		651CFB86259BE63F00C95796 /* RagaBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651CFB85259BE63F00C95796 /* RagaBoxUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		651CFB77259BE63F00C95796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 651CFB5C259BE63C00C95796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 651CFB63259BE63C00C95796;
+			remoteInfo = RagaBox;
+		};
+		651CFB82259BE63F00C95796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 651CFB5C259BE63C00C95796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 651CFB63259BE63C00C95796;
+			remoteInfo = RagaBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		651CFB64259BE63C00C95796 /* RagaBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RagaBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		651CFB67259BE63C00C95796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		651CFB69259BE63C00C95796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		651CFB6B259BE63F00C95796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		651CFB6E259BE63F00C95796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		651CFB70259BE63F00C95796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		651CFB71259BE63F00C95796 /* RagaBox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RagaBox.entitlements; sourceTree = "<group>"; };
+		651CFB76259BE63F00C95796 /* RagaBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RagaBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		651CFB7A259BE63F00C95796 /* RagaBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagaBoxTests.swift; sourceTree = "<group>"; };
+		651CFB7C259BE63F00C95796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		651CFB81259BE63F00C95796 /* RagaBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RagaBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		651CFB85259BE63F00C95796 /* RagaBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagaBoxUITests.swift; sourceTree = "<group>"; };
+		651CFB87259BE63F00C95796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		651CFB61259BE63C00C95796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651CFB73259BE63F00C95796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651CFB7E259BE63F00C95796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		651CFB5B259BE63C00C95796 = {
+			isa = PBXGroup;
+			children = (
+				651CFB66259BE63C00C95796 /* RagaBox */,
+				651CFB79259BE63F00C95796 /* RagaBoxTests */,
+				651CFB84259BE63F00C95796 /* RagaBoxUITests */,
+				651CFB65259BE63C00C95796 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		651CFB65259BE63C00C95796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				651CFB64259BE63C00C95796 /* RagaBox.app */,
+				651CFB76259BE63F00C95796 /* RagaBoxTests.xctest */,
+				651CFB81259BE63F00C95796 /* RagaBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		651CFB66259BE63C00C95796 /* RagaBox */ = {
+			isa = PBXGroup;
+			children = (
+				651CFB67259BE63C00C95796 /* AppDelegate.swift */,
+				651CFB69259BE63C00C95796 /* ViewController.swift */,
+				651CFB6B259BE63F00C95796 /* Assets.xcassets */,
+				651CFB6D259BE63F00C95796 /* Main.storyboard */,
+				651CFB70259BE63F00C95796 /* Info.plist */,
+				651CFB71259BE63F00C95796 /* RagaBox.entitlements */,
+			);
+			path = RagaBox;
+			sourceTree = "<group>";
+		};
+		651CFB79259BE63F00C95796 /* RagaBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				651CFB7A259BE63F00C95796 /* RagaBoxTests.swift */,
+				651CFB7C259BE63F00C95796 /* Info.plist */,
+			);
+			path = RagaBoxTests;
+			sourceTree = "<group>";
+		};
+		651CFB84259BE63F00C95796 /* RagaBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				651CFB85259BE63F00C95796 /* RagaBoxUITests.swift */,
+				651CFB87259BE63F00C95796 /* Info.plist */,
+			);
+			path = RagaBoxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		651CFB63259BE63C00C95796 /* RagaBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651CFB8A259BE63F00C95796 /* Build configuration list for PBXNativeTarget "RagaBox" */;
+			buildPhases = (
+				651CFB60259BE63C00C95796 /* Sources */,
+				651CFB61259BE63C00C95796 /* Frameworks */,
+				651CFB62259BE63C00C95796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RagaBox;
+			productName = RagaBox;
+			productReference = 651CFB64259BE63C00C95796 /* RagaBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		651CFB75259BE63F00C95796 /* RagaBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651CFB8D259BE63F00C95796 /* Build configuration list for PBXNativeTarget "RagaBoxTests" */;
+			buildPhases = (
+				651CFB72259BE63F00C95796 /* Sources */,
+				651CFB73259BE63F00C95796 /* Frameworks */,
+				651CFB74259BE63F00C95796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				651CFB78259BE63F00C95796 /* PBXTargetDependency */,
+			);
+			name = RagaBoxTests;
+			productName = RagaBoxTests;
+			productReference = 651CFB76259BE63F00C95796 /* RagaBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		651CFB80259BE63F00C95796 /* RagaBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651CFB90259BE63F00C95796 /* Build configuration list for PBXNativeTarget "RagaBoxUITests" */;
+			buildPhases = (
+				651CFB7D259BE63F00C95796 /* Sources */,
+				651CFB7E259BE63F00C95796 /* Frameworks */,
+				651CFB7F259BE63F00C95796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				651CFB83259BE63F00C95796 /* PBXTargetDependency */,
+			);
+			name = RagaBoxUITests;
+			productName = RagaBoxUITests;
+			productReference = 651CFB81259BE63F00C95796 /* RagaBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		651CFB5C259BE63C00C95796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					651CFB63259BE63C00C95796 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					651CFB75259BE63F00C95796 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 651CFB63259BE63C00C95796;
+					};
+					651CFB80259BE63F00C95796 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 651CFB63259BE63C00C95796;
+					};
+				};
+			};
+			buildConfigurationList = 651CFB5F259BE63C00C95796 /* Build configuration list for PBXProject "RagaBox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 651CFB5B259BE63C00C95796;
+			productRefGroup = 651CFB65259BE63C00C95796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				651CFB63259BE63C00C95796 /* RagaBox */,
+				651CFB75259BE63F00C95796 /* RagaBoxTests */,
+				651CFB80259BE63F00C95796 /* RagaBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		651CFB62259BE63C00C95796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651CFB6C259BE63F00C95796 /* Assets.xcassets in Resources */,
+				651CFB6F259BE63F00C95796 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651CFB74259BE63F00C95796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651CFB7F259BE63F00C95796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		651CFB60259BE63C00C95796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651CFB6A259BE63C00C95796 /* ViewController.swift in Sources */,
+				651CFB68259BE63C00C95796 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651CFB72259BE63F00C95796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651CFB7B259BE63F00C95796 /* RagaBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651CFB7D259BE63F00C95796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651CFB86259BE63F00C95796 /* RagaBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		651CFB78259BE63F00C95796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 651CFB63259BE63C00C95796 /* RagaBox */;
+			targetProxy = 651CFB77259BE63F00C95796 /* PBXContainerItemProxy */;
+		};
+		651CFB83259BE63F00C95796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 651CFB63259BE63C00C95796 /* RagaBox */;
+			targetProxy = 651CFB82259BE63F00C95796 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		651CFB6D259BE63F00C95796 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				651CFB6E259BE63F00C95796 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		651CFB88259BE63F00C95796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		651CFB89259BE63F00C95796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		651CFB8B259BE63F00C95796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RagaBox/RagaBox.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XZ9VWRV6AW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = RagaBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VenkyUL.RagaBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		651CFB8C259BE63F00C95796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RagaBox/RagaBox.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XZ9VWRV6AW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = RagaBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VenkyUL.RagaBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		651CFB8E259BE63F00C95796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XZ9VWRV6AW;
+				INFOPLIST_FILE = RagaBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = VenkyUL.RagaBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RagaBox.app/Contents/MacOS/RagaBox";
+			};
+			name = Debug;
+		};
+		651CFB8F259BE63F00C95796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XZ9VWRV6AW;
+				INFOPLIST_FILE = RagaBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = VenkyUL.RagaBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RagaBox.app/Contents/MacOS/RagaBox";
+			};
+			name = Release;
+		};
+		651CFB91259BE63F00C95796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XZ9VWRV6AW;
+				INFOPLIST_FILE = RagaBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VenkyUL.RagaBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RagaBox;
+			};
+			name = Debug;
+		};
+		651CFB92259BE63F00C95796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XZ9VWRV6AW;
+				INFOPLIST_FILE = RagaBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = VenkyUL.RagaBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RagaBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		651CFB5F259BE63C00C95796 /* Build configuration list for PBXProject "RagaBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651CFB88259BE63F00C95796 /* Debug */,
+				651CFB89259BE63F00C95796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651CFB8A259BE63F00C95796 /* Build configuration list for PBXNativeTarget "RagaBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651CFB8B259BE63F00C95796 /* Debug */,
+				651CFB8C259BE63F00C95796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651CFB8D259BE63F00C95796 /* Build configuration list for PBXNativeTarget "RagaBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651CFB8E259BE63F00C95796 /* Debug */,
+				651CFB8F259BE63F00C95796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651CFB90259BE63F00C95796 /* Build configuration list for PBXNativeTarget "RagaBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651CFB91259BE63F00C95796 /* Debug */,
+				651CFB92259BE63F00C95796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 651CFB5C259BE63C00C95796 /* Project object */;
+}
