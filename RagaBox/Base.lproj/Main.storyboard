@@ -706,11 +706,40 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="RagaBox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="561" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
+                            <popUpButton verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0Qv-8c-kk1">
+                                <rect key="frame" x="37" y="162" width="207" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="9nr-y1-PXF"/>
+                                </constraints>
+                                <popUpButtonCell key="cell" type="push" title="Abhogi" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="qdq-g6-VcU" id="pFf-p7-x39">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="kZy-Ax-x5m">
+                                        <items>
+                                            <menuItem title="Abhogi" state="on" id="qdq-g6-VcU" userLabel="Abhogi"/>
+                                            <menuItem title="Ahiri" id="mCl-kk-a1x"/>
+                                            <menuItem title="Shanmughapriya" id="TV7-hU-ik4"/>
+                                            <menuItem title="Kharaharapriya" id="GPe-3z-fpY">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                            </popUpButton>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Um-4m-IZ0">
+                                <rect key="frame" x="46" y="66" width="77" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" id="rzN-k8-Pa8">
+                                    <font key="font" metaFont="systemBold" size="31"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="NUE-HD-kMU">
-                                <rect key="frame" x="160" y="143" width="99" height="32"/>
+                                <rect key="frame" x="258" y="159" width="99" height="32"/>
                                 <buttonCell key="cell" type="push" title="Play Music" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="qAm-l6-jVV">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -721,16 +750,21 @@
                             </button>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="NUE-HD-kMU" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="100" id="58y-Pa-ZLy"/>
-                            <constraint firstItem="NUE-HD-kMU" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="167" id="BC1-f8-ykO"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="NUE-HD-kMU" secondAttribute="trailing" constant="228" id="b64-kq-Cye"/>
-                            <constraint firstAttribute="bottom" secondItem="NUE-HD-kMU" secondAttribute="bottom" constant="150" id="iNk-QX-nF2"/>
+                            <constraint firstItem="NUE-HD-kMU" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="84" id="0eY-zR-Ry0"/>
+                            <constraint firstItem="0Qv-8c-kk1" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="40" id="M7c-bi-wQK"/>
+                            <constraint firstAttribute="trailing" secondItem="NUE-HD-kMU" secondAttribute="trailing" constant="211" id="gbX-YI-N6g"/>
+                            <constraint firstItem="NUE-HD-kMU" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="0Qv-8c-kk1" secondAttribute="trailing" constant="25" id="gmn-hP-HZb"/>
+                            <constraint firstItem="NUE-HD-kMU" firstAttribute="baseline" secondItem="0Qv-8c-kk1" secondAttribute="baseline" id="w7u-lK-Wdy"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="labelNote" destination="8Um-4m-IZ0" id="0NV-jo-kUw"/>
+                        <outlet property="popupButton" destination="0Qv-8c-kk1" id="IS4-RW-Kmh"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="74.5" y="655"/>
         </scene>
     </scenes>
 </document>
