@@ -13,6 +13,19 @@
 		651CFB6F259BE63F00C95796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651CFB6D259BE63F00C95796 /* Main.storyboard */; };
 		651CFB7B259BE63F00C95796 /* RagaBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651CFB7A259BE63F00C95796 /* RagaBoxTests.swift */; };
 		651CFB86259BE63F00C95796 /* RagaBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651CFB85259BE63F00C95796 /* RagaBoxUITests.swift */; };
+		651CFBA8259BEB5600C95796 /* B3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFB9B259BEB5500C95796 /* B3.mp3 */; };
+		651CFBA9259BEB5600C95796 /* A#3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFB9C259BEB5500C95796 /* A#3.mp3 */; };
+		651CFBAA259BEB5600C95796 /* A3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFB9D259BEB5500C95796 /* A3.mp3 */; };
+		651CFBAB259BEB5600C95796 /* F3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFB9E259BEB5500C95796 /* F3.mp3 */; };
+		651CFBAC259BEB5600C95796 /* D3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFB9F259BEB5500C95796 /* D3.mp3 */; };
+		651CFBAD259BEB5600C95796 /* C4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFBA0259BEB5500C95796 /* C4.mp3 */; };
+		651CFBAE259BEB5600C95796 /* F#3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFBA1259BEB5500C95796 /* F#3.mp3 */; };
+		651CFBAF259BEB5600C95796 /* E3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFBA2259BEB5600C95796 /* E3.mp3 */; };
+		651CFBB0259BEB5600C95796 /* C#3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFBA3259BEB5600C95796 /* C#3.mp3 */; };
+		651CFBB1259BEB5600C95796 /* C3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFBA4259BEB5600C95796 /* C3.mp3 */; };
+		651CFBB2259BEB5600C95796 /* G3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFBA5259BEB5600C95796 /* G3.mp3 */; };
+		651CFBB3259BEB5600C95796 /* D#3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFBA6259BEB5600C95796 /* D#3.mp3 */; };
+		651CFBB4259BEB5600C95796 /* G#3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFBA7259BEB5600C95796 /* G#3.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +59,19 @@
 		651CFB81259BE63F00C95796 /* RagaBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RagaBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		651CFB85259BE63F00C95796 /* RagaBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagaBoxUITests.swift; sourceTree = "<group>"; };
 		651CFB87259BE63F00C95796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		651CFB9B259BEB5500C95796 /* B3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = B3.mp3; sourceTree = "<group>"; };
+		651CFB9C259BEB5500C95796 /* A#3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A#3.mp3"; sourceTree = "<group>"; };
+		651CFB9D259BEB5500C95796 /* A3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A3.mp3; sourceTree = "<group>"; };
+		651CFB9E259BEB5500C95796 /* F3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = F3.mp3; sourceTree = "<group>"; };
+		651CFB9F259BEB5500C95796 /* D3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D3.mp3; sourceTree = "<group>"; };
+		651CFBA0259BEB5500C95796 /* C4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C4.mp3; sourceTree = "<group>"; };
+		651CFBA1259BEB5500C95796 /* F#3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "F#3.mp3"; sourceTree = "<group>"; };
+		651CFBA2259BEB5600C95796 /* E3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E3.mp3; sourceTree = "<group>"; };
+		651CFBA3259BEB5600C95796 /* C#3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C#3.mp3"; sourceTree = "<group>"; };
+		651CFBA4259BEB5600C95796 /* C3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C3.mp3; sourceTree = "<group>"; };
+		651CFBA5259BEB5600C95796 /* G3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = G3.mp3; sourceTree = "<group>"; };
+		651CFBA6259BEB5600C95796 /* D#3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "D#3.mp3"; sourceTree = "<group>"; };
+		651CFBA7259BEB5600C95796 /* G#3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G#3.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +122,7 @@
 		651CFB66259BE63C00C95796 /* RagaBox */ = {
 			isa = PBXGroup;
 			children = (
+				651CFB9A259BEB2900C95796 /* Music Notes */,
 				651CFB67259BE63C00C95796 /* AppDelegate.swift */,
 				651CFB69259BE63C00C95796 /* ViewController.swift */,
 				651CFB6B259BE63F00C95796 /* Assets.xcassets */,
@@ -122,6 +149,26 @@
 				651CFB87259BE63F00C95796 /* Info.plist */,
 			);
 			path = RagaBoxUITests;
+			sourceTree = "<group>";
+		};
+		651CFB9A259BEB2900C95796 /* Music Notes */ = {
+			isa = PBXGroup;
+			children = (
+				651CFB9C259BEB5500C95796 /* A#3.mp3 */,
+				651CFB9D259BEB5500C95796 /* A3.mp3 */,
+				651CFB9B259BEB5500C95796 /* B3.mp3 */,
+				651CFBA3259BEB5600C95796 /* C#3.mp3 */,
+				651CFBA4259BEB5600C95796 /* C3.mp3 */,
+				651CFBA0259BEB5500C95796 /* C4.mp3 */,
+				651CFBA6259BEB5600C95796 /* D#3.mp3 */,
+				651CFB9F259BEB5500C95796 /* D3.mp3 */,
+				651CFBA2259BEB5600C95796 /* E3.mp3 */,
+				651CFBA1259BEB5500C95796 /* F#3.mp3 */,
+				651CFB9E259BEB5500C95796 /* F3.mp3 */,
+				651CFBA7259BEB5600C95796 /* G#3.mp3 */,
+				651CFBA5259BEB5600C95796 /* G3.mp3 */,
+			);
+			path = "Music Notes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,8 +274,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				651CFBB2259BEB5600C95796 /* G3.mp3 in Resources */,
+				651CFBAF259BEB5600C95796 /* E3.mp3 in Resources */,
+				651CFBAA259BEB5600C95796 /* A3.mp3 in Resources */,
+				651CFBB1259BEB5600C95796 /* C3.mp3 in Resources */,
+				651CFBB0259BEB5600C95796 /* C#3.mp3 in Resources */,
+				651CFBA9259BEB5600C95796 /* A#3.mp3 in Resources */,
+				651CFBB4259BEB5600C95796 /* G#3.mp3 in Resources */,
 				651CFB6C259BE63F00C95796 /* Assets.xcassets in Resources */,
+				651CFBAE259BEB5600C95796 /* F#3.mp3 in Resources */,
+				651CFBAD259BEB5600C95796 /* C4.mp3 in Resources */,
+				651CFBA8259BEB5600C95796 /* B3.mp3 in Resources */,
 				651CFB6F259BE63F00C95796 /* Main.storyboard in Resources */,
+				651CFBAC259BEB5600C95796 /* D3.mp3 in Resources */,
+				651CFBAB259BEB5600C95796 /* F3.mp3 in Resources */,
+				651CFBB3259BEB5600C95796 /* D#3.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
