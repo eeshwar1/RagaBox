@@ -7,25 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		650735C125F3D540001F80C4 /* ragas.json in Resources */ = {isa = PBXBuildFile; fileRef = 650735C025F3D540001F80C4 /* ragas.json */; };
+		650735C625F3D714001F80C4 /* Raga.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650735C525F3D714001F80C4 /* Raga.swift */; };
+		650735EE25F42BC1001F80C4 /* Carnatic in Resources */ = {isa = PBXBuildFile; fileRef = 650735ED25F42BC0001F80C4 /* Carnatic */; };
 		651CFB68259BE63C00C95796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651CFB67259BE63C00C95796 /* AppDelegate.swift */; };
 		651CFB6A259BE63C00C95796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651CFB69259BE63C00C95796 /* ViewController.swift */; };
 		651CFB6C259BE63F00C95796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651CFB6B259BE63F00C95796 /* Assets.xcassets */; };
 		651CFB6F259BE63F00C95796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651CFB6D259BE63F00C95796 /* Main.storyboard */; };
 		651CFB7B259BE63F00C95796 /* RagaBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651CFB7A259BE63F00C95796 /* RagaBoxTests.swift */; };
 		651CFB86259BE63F00C95796 /* RagaBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651CFB85259BE63F00C95796 /* RagaBoxUITests.swift */; };
-		651CFBA8259BEB5600C95796 /* B3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFB9B259BEB5500C95796 /* B3.mp3 */; };
-		651CFBA9259BEB5600C95796 /* A#3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFB9C259BEB5500C95796 /* A#3.mp3 */; };
-		651CFBAA259BEB5600C95796 /* A3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFB9D259BEB5500C95796 /* A3.mp3 */; };
-		651CFBAB259BEB5600C95796 /* F3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFB9E259BEB5500C95796 /* F3.mp3 */; };
-		651CFBAC259BEB5600C95796 /* D3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFB9F259BEB5500C95796 /* D3.mp3 */; };
-		651CFBAD259BEB5600C95796 /* C4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFBA0259BEB5500C95796 /* C4.mp3 */; };
-		651CFBAE259BEB5600C95796 /* F#3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFBA1259BEB5500C95796 /* F#3.mp3 */; };
-		651CFBAF259BEB5600C95796 /* E3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFBA2259BEB5600C95796 /* E3.mp3 */; };
-		651CFBB0259BEB5600C95796 /* C#3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFBA3259BEB5600C95796 /* C#3.mp3 */; };
-		651CFBB1259BEB5600C95796 /* C3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFBA4259BEB5600C95796 /* C3.mp3 */; };
-		651CFBB2259BEB5600C95796 /* G3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFBA5259BEB5600C95796 /* G3.mp3 */; };
-		651CFBB3259BEB5600C95796 /* D#3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFBA6259BEB5600C95796 /* D#3.mp3 */; };
-		651CFBB4259BEB5600C95796 /* G#3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 651CFBA7259BEB5600C95796 /* G#3.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		650735C025F3D540001F80C4 /* ragas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ragas.json; path = RagaBox/ragas.json; sourceTree = "<group>"; };
+		650735C525F3D714001F80C4 /* Raga.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raga.swift; sourceTree = "<group>"; };
+		650735ED25F42BC0001F80C4 /* Carnatic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Carnatic; sourceTree = "<group>"; };
 		651CFB64259BE63C00C95796 /* RagaBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RagaBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		651CFB67259BE63C00C95796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		651CFB69259BE63C00C95796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,19 +52,6 @@
 		651CFB81259BE63F00C95796 /* RagaBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RagaBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		651CFB85259BE63F00C95796 /* RagaBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RagaBoxUITests.swift; sourceTree = "<group>"; };
 		651CFB87259BE63F00C95796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		651CFB9B259BEB5500C95796 /* B3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = B3.mp3; sourceTree = "<group>"; };
-		651CFB9C259BEB5500C95796 /* A#3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A#3.mp3"; sourceTree = "<group>"; };
-		651CFB9D259BEB5500C95796 /* A3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A3.mp3; sourceTree = "<group>"; };
-		651CFB9E259BEB5500C95796 /* F3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = F3.mp3; sourceTree = "<group>"; };
-		651CFB9F259BEB5500C95796 /* D3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = D3.mp3; sourceTree = "<group>"; };
-		651CFBA0259BEB5500C95796 /* C4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C4.mp3; sourceTree = "<group>"; };
-		651CFBA1259BEB5500C95796 /* F#3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "F#3.mp3"; sourceTree = "<group>"; };
-		651CFBA2259BEB5600C95796 /* E3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = E3.mp3; sourceTree = "<group>"; };
-		651CFBA3259BEB5600C95796 /* C#3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "C#3.mp3"; sourceTree = "<group>"; };
-		651CFBA4259BEB5600C95796 /* C3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = C3.mp3; sourceTree = "<group>"; };
-		651CFBA5259BEB5600C95796 /* G3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = G3.mp3; sourceTree = "<group>"; };
-		651CFBA6259BEB5600C95796 /* D#3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "D#3.mp3"; sourceTree = "<group>"; };
-		651CFBA7259BEB5600C95796 /* G#3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G#3.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +82,7 @@
 		651CFB5B259BE63C00C95796 = {
 			isa = PBXGroup;
 			children = (
+				650735C025F3D540001F80C4 /* ragas.json */,
 				651CFB66259BE63C00C95796 /* RagaBox */,
 				651CFB79259BE63F00C95796 /* RagaBoxTests */,
 				651CFB84259BE63F00C95796 /* RagaBoxUITests */,
@@ -122,9 +103,10 @@
 		651CFB66259BE63C00C95796 /* RagaBox */ = {
 			isa = PBXGroup;
 			children = (
-				651CFB9A259BEB2900C95796 /* Music Notes */,
+				651CFB9A259BEB2900C95796 /* MusicNotes */,
 				651CFB67259BE63C00C95796 /* AppDelegate.swift */,
 				651CFB69259BE63C00C95796 /* ViewController.swift */,
+				650735C525F3D714001F80C4 /* Raga.swift */,
 				651CFB6B259BE63F00C95796 /* Assets.xcassets */,
 				651CFB6D259BE63F00C95796 /* Main.storyboard */,
 				651CFB70259BE63F00C95796 /* Info.plist */,
@@ -151,24 +133,12 @@
 			path = RagaBoxUITests;
 			sourceTree = "<group>";
 		};
-		651CFB9A259BEB2900C95796 /* Music Notes */ = {
+		651CFB9A259BEB2900C95796 /* MusicNotes */ = {
 			isa = PBXGroup;
 			children = (
-				651CFB9C259BEB5500C95796 /* A#3.mp3 */,
-				651CFB9D259BEB5500C95796 /* A3.mp3 */,
-				651CFB9B259BEB5500C95796 /* B3.mp3 */,
-				651CFBA3259BEB5600C95796 /* C#3.mp3 */,
-				651CFBA4259BEB5600C95796 /* C3.mp3 */,
-				651CFBA0259BEB5500C95796 /* C4.mp3 */,
-				651CFBA6259BEB5600C95796 /* D#3.mp3 */,
-				651CFB9F259BEB5500C95796 /* D3.mp3 */,
-				651CFBA2259BEB5600C95796 /* E3.mp3 */,
-				651CFBA1259BEB5500C95796 /* F#3.mp3 */,
-				651CFB9E259BEB5500C95796 /* F3.mp3 */,
-				651CFBA7259BEB5600C95796 /* G#3.mp3 */,
-				651CFBA5259BEB5600C95796 /* G3.mp3 */,
+				650735ED25F42BC0001F80C4 /* Carnatic */,
 			);
-			path = "Music Notes";
+			path = MusicNotes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +204,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					651CFB63259BE63C00C95796 = {
 						CreatedOnToolsVersion = 12.3;
@@ -274,21 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				651CFBB2259BEB5600C95796 /* G3.mp3 in Resources */,
-				651CFBAF259BEB5600C95796 /* E3.mp3 in Resources */,
-				651CFBAA259BEB5600C95796 /* A3.mp3 in Resources */,
-				651CFBB1259BEB5600C95796 /* C3.mp3 in Resources */,
-				651CFBB0259BEB5600C95796 /* C#3.mp3 in Resources */,
-				651CFBA9259BEB5600C95796 /* A#3.mp3 in Resources */,
-				651CFBB4259BEB5600C95796 /* G#3.mp3 in Resources */,
 				651CFB6C259BE63F00C95796 /* Assets.xcassets in Resources */,
-				651CFBAE259BEB5600C95796 /* F#3.mp3 in Resources */,
-				651CFBAD259BEB5600C95796 /* C4.mp3 in Resources */,
-				651CFBA8259BEB5600C95796 /* B3.mp3 in Resources */,
+				650735EE25F42BC1001F80C4 /* Carnatic in Resources */,
+				650735C125F3D540001F80C4 /* ragas.json in Resources */,
 				651CFB6F259BE63F00C95796 /* Main.storyboard in Resources */,
-				651CFBAC259BEB5600C95796 /* D3.mp3 in Resources */,
-				651CFBAB259BEB5600C95796 /* F3.mp3 in Resources */,
-				651CFBB3259BEB5600C95796 /* D#3.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				650735C625F3D714001F80C4 /* Raga.swift in Sources */,
 				651CFB6A259BE63C00C95796 /* ViewController.swift in Sources */,
 				651CFB68259BE63C00C95796 /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +442,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RagaBox/RagaBox.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = XZ9VWRV6AW;
@@ -503,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RagaBox/RagaBox.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = XZ9VWRV6AW;
